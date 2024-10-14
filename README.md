@@ -2,6 +2,11 @@
 
 This repository contains a Python notebook for semantic segmentation of retinal blood vessels using the U-Net architecture. The project utilizes the DRIVE dataset to perform image segmentation tasks.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/78e1bb02-0630-42f1-8197-191d33382693" alt="U-net architecture"/>
+</p>
+
+
 ## Project Overview
 
 The goal of this project is to train a U-Net model to segment blood vessels from retinal images in the DRIVE dataset. The project notebook includes data loading, preprocessing, augmentation, model building, and training.
@@ -13,6 +18,9 @@ The notebook contains:
 
 ## Dataset
 
+<p align="center">
+  <img src="[https://github.com/user-attachments/assets/78e1bb02-0630-42f1-8197-191d33382693](https://github.com/user-attachments/assets/a14843a6-863d-403e-a24f-23a91adc1c50)" alt="DRIVE dataset"/>
+</p>
 The [DRIVE dataset](https://drive.grand-challenge.org/) is used for training and testing. It includes:
 - **Training images**: Retinal images with corresponding segmented vessel maps.
 - **Test images**: Retinal images with ground truth vessel segmentations.
